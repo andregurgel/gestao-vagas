@@ -29,9 +29,6 @@ public class JobEntity {
     @JoinColumn(name = "company_id")
     private CompanyEntity companyEntity;
 
-    @Column(name = "company_id")
-    private UUID companyId; 
-
     @CreationTimestamp
     private LocalDateTime createdAt;
 }
